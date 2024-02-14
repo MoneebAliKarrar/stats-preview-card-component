@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Lexend+Deca:wght@100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(233, 47%, 7%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4em 2em;
+}
+main{
+    background-color:  hsl(244, 38%, 16%);
+    color: white;
+    width: 600px;
+    border-radius: .5em;
+    text-align: center;
+    font-family: "Inter";
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+img{
+    width: 600px;
+    border-top-left-radius: .5em ;
+    border-top-right-radius: .5em;
+}
+
+article h1{
+    margin:1em 1em;
+    font-size: 2.25em;
+}
+#insights{
+    color:  hsl(277, 64%, 61%);
+}
+article p{
+    line-height: 1.75em;
+    margin :0em 0em 2em;
+    padding:0em 5.5em;
+    font-size: .9em;
+    word-spacing: .16em;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+footer div{
+    display: flex;
+    flex-direction: column;
+    margin :.5em 0em;
+}
+.values{
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: .25em 0em;
+}
+.discription-of-values{
+    text-transform: uppercase;
+    font-family: "Lexend Deca";
+    font-size: .9em;
+}
+@media screen and (min-width:550px) {
+    body{
+        height: 100vh;
+    }
+    main{
+        display: flex;
+        flex-direction: row;
+        width: 1110px;
+        text-align: left;
+    }
+    img{
+        width: 540px;  
+        height: 100%;
+        border-top-left-radius: 0em;
+        border-bottom-right-radius: .5em;
+    }
+    article{
+        order: -1;
+        width: 570px;
+    }
+    article h1{
+        margin:2em 2em .7em 2em;
+    }
+    article p{
+        margin :0em 0em 4.4em;
+    padding:0em 9em 0em 5em;
+    }
+    article footer{
+        display: flex;
+        flex-direction: row;
+    }
+    footer{
+        justify-content:left;
+        margin-left: 2.8em;
+    }
+    footer div{
+        margin: 0em 1.75em;
+    }
+}
