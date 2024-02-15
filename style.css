@@ -15,7 +15,7 @@ body{
 main{
     background-color:  hsl(244, 38%, 16%);
     color: white;
-    width: 500px;
+    width: 400px;
     border-radius: .5em;
     text-align: center;
     font-family: "Inter";
@@ -25,7 +25,7 @@ main{
     
 }
 header{
-    width: 500px;
+    width: 400px;
     height: 400px;
     background-image: url(./images/image-header-mobile.jpg);
     border-top-left-radius: .5em ;
