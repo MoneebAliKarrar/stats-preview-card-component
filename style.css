@@ -28,6 +28,8 @@ img{
     width: 600px;
     border-top-left-radius: .5em ;
     border-top-right-radius: .5em;
+    background-color:hsl(277, 64%, 61%) ;
+    background-blend-mode:multiply;
 }
 
 article h1{
@@ -42,7 +44,8 @@ article p{
     margin :0em 0em 2em;
     padding:0em 5.5em;
     font-size: .9em;
-    word-spacing: .16em;
+    word-spacing: .25em;
+    font-weight: 100;
 }
 footer{
     display: flex;
@@ -58,39 +61,45 @@ footer div{
 .values{
     font-size: 1.5em;
     font-weight: bold;
-    margin: .25em 0em;
+    margin: .3em 0em;
 }
 .discription-of-values{
     text-transform: uppercase;
     font-family: "Lexend Deca";
     font-size: .9em;
+    font-weight: 100;
 }
-@media screen and (min-width:550px) {
+@media screen and (min-width:800px) {
     body{
         height: 100vh;
     }
     main{
         display: flex;
         flex-direction: row;
-        width: 1110px;
+        width: 1233px;
         text-align: left;
     }
     img{
-        width: 540px;  
+        width: 600px;  
         height: 100%;
         border-top-left-radius: 0em;
         border-bottom-right-radius: .5em;
     }
     article{
         order: -1;
-        width: 570px;
+        width: 633px;
     }
     article h1{
-        margin:2em 2em .7em 2em;
+        margin:2.1em 2em .7em 2em;
+        font-size: 2.4em;
+        word-spacing: .1em;
+        line-height: 1.25em;
+        letter-spacing: .3px;
     }
     article p{
-        margin :0em 0em 4.4em;
+        margin :0em 0em 4.75em;
     padding:0em 9em 0em 5em;
+    font-size: 1em;
     }
     article footer{
         display: flex;
@@ -98,9 +107,9 @@ footer div{
     }
     footer{
         justify-content:left;
-        margin-left: 2.8em;
+        margin-left: 2.6em;
     }
     footer div{
-        margin: 0em 1.75em;
+        margin: 0em 2.5em;
     }
 }
